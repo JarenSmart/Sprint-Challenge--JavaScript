@@ -40,19 +40,19 @@ let velociraptor = {
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-//console.log(tyrannosaurus.weight);
+console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-//console.log(velociraptor.diet);
+console.log(velociraptor.diet);
 
 // How long was a stegosaurus?
-//console.log(stegosaurus.length);
+console.log(stegosaurus.length);
 
 // What time period did tyrannosaurus live in?
-//console.log(tyrannosaurus.period);
+console.log(tyrannosaurus.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-//console.log(tyrannosaurus.roar());
+console.log(tyrannosaurus.roar());
 
 // ==== Arrays ====
 
@@ -139,7 +139,7 @@ The resulting contact information strings should have a space between the first 
 Log the result of your new array. */
 const contactInfo = [];
 for (let i = 0; i < graduates.length; i++) {
-  contactInfo.push(graduates[i].first_name, graduates[i].email);
+  contactInfo.push(`${graduates[i].first_name} ${graduates[i].email}`);
 }
 
 console.log(contactInfo);
@@ -252,7 +252,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 */
 let lowPopulationAnimals = [];
 lowPopulationAnimals = zooAnimals.filter(lowPop => {
-  return lowPop.population <= 5;
+  return lowPop.population < 5;
 });
 console.log(lowPopulationAnimals);
 

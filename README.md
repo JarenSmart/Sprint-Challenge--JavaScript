@@ -39,12 +39,12 @@ Edit this document to include your answers after each question. Make sure to lea
    Essentially closure gives you access to an outer functions scope from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
-5. Whenever a function is contained in the global scope, the value of 'this' inside of that function will be the 'window' object (default || window binding)
-6. Whenever a function is called by a dot, the object before that dot is 'this' (implicit binding)
-7. Whenever a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function. (new || instance binding)
-8. Whenever JavaScript's '.call' or '.apply' method is used, 'this' is explicitly defined. (explicit binding)
+   Whenever a function is contained in the global scope, the value of 'this' inside of that function will be the 'window' object (default || window binding)
+   Whenever a function is called by a dot, the object before that dot is 'this' (implicit binding)
+   Whenever a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function. (new || instance binding)
+   Whenever JavaScript's '.call' or '.apply' method is used, 'this' is explicitly defined. (explicit binding)
 
-9. Why do we need super() in an extended class?
+5. Why do we need super() in an extended class?
    The super() keyword in JavaScript is used in order to call the methods of the parent class.
 
 ## Project Set up
